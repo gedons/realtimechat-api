@@ -1,4 +1,4 @@
-## **Backend Repository (`chatterbox-api`)**
+ **Backend Repository (`chatterbox-api`)**
 
 ### 📄 **README.md** (Backend)
 ```md
