@@ -1,0 +1,5 @@
+chat-app/
+node_modules/
+tests/
+.env
+client-simulation.js
