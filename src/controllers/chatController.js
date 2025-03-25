@@ -5,7 +5,7 @@ const redisClient = require('../config/redisClient');
 
 exports.createChat = async (req, res) => {
   try {
-    const { participantsEmails, isGroupChat, name } = req.body;
+    const { participantsEmails, isGroupChat, name, isAIChat } = req.body;
 
     if (!participantsEmails || !Array.isArray(participantsEmails)) {
       return res.status(400).json({ message: 'Participants must be an array of emails' });
