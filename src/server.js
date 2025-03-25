@@ -29,7 +29,7 @@ const server = http.createServer(app);
 // Enable CORS for WebSockets
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173', 
+    origin: 'https://reatime-chat.vercel.app', 
     methods: ['GET', 'POST'],
   },
 });
